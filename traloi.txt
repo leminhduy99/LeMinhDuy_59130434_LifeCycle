@@ -1,0 +1,8 @@
+Cau 4: Cac phuong thuc vong doi duuc goi khi ung dung dang chay và nguoi su dung bam vao nut back
+sau do mo lai ung dung là: onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume.
+Cau 5: Các phuong thuc vong doi duoc goi khi ung dung dang chay và nguoi su dung bam vao nut home
+ va sau do mo lai ung dung la: onPause -> onStop -> onRestart -> onStart -> onResume.
+Cau 6: Neu can luu thong tin cua ung dung de khoi phuc lai trang thai hien thi cua ung dung khi chay lai ung dung 
+thi can phai thuc hien trong phuong thuc vong doi: onCreate vi khi chay lai ung dung se o trang thai onStop
+ khi ta bat lai ung dung onStop sau do se thuc hien phuong thuc onRestart sau do
+onStart và onResume, khong thuc hien onCreate nen thong tin cua ung dung se duoc luu lai.
